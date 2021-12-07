@@ -1,0 +1,48 @@
+USE [GestaoProduto]
+GO
+
+/****** Object: Table [dbo].[Fornecedor] Script Date: 06/12/2021 16:59:26 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Fornecedor] (
+    [Id]        INT           IDENTITY (1, 1) NOT NULL,
+    [Descricao] VARCHAR (100) NOT NULL,
+    [CNPJ]      VARCHAR (14)  NOT NULL,
+    [CreateAt]  DATETIME      NOT NULL,
+    [UpdateAt]  DATETIME      NULL,
+    [DeleteAt]  DATETIME      NULL
+);
+
+
+ALTER TABLE [dbo].[Fornecedor]
+    ADD CONSTRAINT [PK_Fornecedor] PRIMARY KEY CLUSTERED ([Id] ASC);
+
+/****** Object: Table [dbo].[Produto] Script Date: 06/12/2021 17:01:05 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Produto] (
+    [Id]             INT           IDENTITY (1, 1) NOT NULL,
+    [Descricao]      VARCHAR (100) NOT NULL,
+    [Situacao]       BIT           NOT NULL,
+    [DataFabricacao] DATETIME      NOT NULL,
+    [DataValidade]   DATETIME      NOT NULL,
+    [FornecedorId]   INT           NULL,
+    [CreateAt]       DATETIME      NOT NULL,
+    [UpdateAt]       DATETIME      NULL,
+    [DeleteAt]       DATETIME      NULL
+);
+
+ALTER TABLE [dbo].[Produto]
+    ADD CONSTRAINT [PK_Produto] PRIMARY KEY CLUSTERED ([Id] ASC);
+
+ALTER TABLE [dbo].[Produto]
+    ADD CONSTRAINT [FK_Produto_Fornecedor] FOREIGN KEY ([FornecedorId]) REFERENCES [dbo].[Fornecedor] ([Id]);
+
