@@ -1,0 +1,475 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\GestaoProdutosTest\\GestaoProdutosTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\CrossCutting\\CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\CrossCutting\\CrossCutting.csproj",
+        "projectName": "CrossCutting",
+        "projectPath": "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\CrossCutting\\CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\biel_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\biel_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\Data\\Data.csproj"
+              },
+              "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\Domain\\Domain.csproj"
+              },
+              "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\Service\\Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\Data\\Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\biel_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\biel_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.0.0-rc2.final, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\biel_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\biel_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.5, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.3.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\GestaoProdutosTest\\GestaoProdutosTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\GestaoProdutosTest\\GestaoProdutosTest.csproj",
+        "projectName": "GestaoProdutosTest",
+        "projectPath": "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\GestaoProdutosTest\\GestaoProdutosTest.csproj",
+        "packagesPath": "C:\\Users\\biel_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\GestaoProdutosTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\biel_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\GestaoProdutos\\GestaoProdutos.csproj": {
+                "projectPath": "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\GestaoProdutos\\GestaoProdutos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.AspNetCore.TestHost": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\GestaoProdutos\\GestaoProdutos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\GestaoProdutos\\GestaoProdutos.csproj",
+        "projectName": "GestaoProdutos",
+        "projectPath": "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\GestaoProdutos\\GestaoProdutos.csproj",
+        "packagesPath": "C:\\Users\\biel_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\GestaoProdutos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\biel_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\CrossCutting\\CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\CrossCutting\\CrossCutting.csproj"
+              },
+              "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.5, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.3.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.17, 3.1.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\Service\\Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\Service\\Service.csproj",
+        "projectName": "Service",
+        "projectPath": "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\biel_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\biel_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\Data\\Data.csproj"
+              },
+              "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\biel_\\OneDrive\\Área de Trabalho\\AutoGlass\\GestaoProdutosAPI\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\Users\biel_\OneDrive\Área de Trabalho\AutoGlass\GestaoProdutosAPI\Data\bin\Debug\netcoreapp3.1\Data.deps.json
+C:\Users\biel_\OneDrive\Área de Trabalho\AutoGlass\GestaoProdutosAPI\Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.json
+C:\Users\biel_\OneDrive\Área de Trabalho\AutoGlass\GestaoProdutosAPI\Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.dev.json
+C:\Users\biel_\OneDrive\Área de Trabalho\AutoGlass\GestaoProdutosAPI\Data\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\biel_\OneDrive\Área de Trabalho\AutoGlass\GestaoProdutosAPI\Data\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\biel_\OneDrive\Área de Trabalho\AutoGlass\GestaoProdutosAPI\Data\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\biel_\OneDrive\Área de Trabalho\AutoGlass\GestaoProdutosAPI\Data\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\biel_\OneDrive\Área de Trabalho\AutoGlass\GestaoProdutosAPI\Data\obj\Debug\netcoreapp3.1\Data.csproj.AssemblyReference.cache
+C:\Users\biel_\OneDrive\Área de Trabalho\AutoGlass\GestaoProdutosAPI\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+C:\Users\biel_\OneDrive\Área de Trabalho\AutoGlass\GestaoProdutosAPI\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
+C:\Users\biel_\OneDrive\Área de Trabalho\AutoGlass\GestaoProdutosAPI\Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
+C:\Users\biel_\OneDrive\Área de Trabalho\AutoGlass\GestaoProdutosAPI\Data\obj\Debug\netcoreapp3.1\Data.csproj.CopyComplete
+C:\Users\biel_\OneDrive\Área de Trabalho\AutoGlass\GestaoProdutosAPI\Data\obj\Debug\netcoreapp3.1\Data.dll
+C:\Users\biel_\OneDrive\Área de Trabalho\AutoGlass\GestaoProdutosAPI\Data\obj\Debug\netcoreapp3.1\Data.pdb
+C:\Users\biel_\OneDrive\Área de Trabalho\AutoGlass\GestaoProdutosAPI\Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache
